@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+    border: 1.5px solid;
+    color:#624b2b;
+}
+
+td {
+    padding: 7px 10px;
+    text-align: center;
+    font-size: larger;
+    border: 1.5px solid;
+    color:#624b2b;
+}
+
+td:hover:not(#bigResult, #equal) {
+    background-color: #dcd8d1;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+td:active:not(#bigResult) {
+    transform: scale(0.96);
+}
+
+input {
+    text-align: right;
+    font-size: large;
+    border: none;
+}
+
+#result {
+    color:#624b2b;
+}
+
+#ac {
+    background-color:lemonchiffon;
+}
+
+#ac:hover {
+    background-color: #dcd8d1;
+    transition: 0.7s;
+}
+
+.operator, #equal {
+    background-color:wheat;
+}
+
+#equal:hover {
+    background-image: linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
+    cursor: url("./보노보노.png") 20 30, pointer;
+}
